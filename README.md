@@ -1,52 +1,195 @@
-# Welcome to your Expo app 👋
+# 📱 Subscribly Alert App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Subscribly Alert App is a React Native mobile application built to help users manage subscriptions, monitor renewal dates, and receive timely reminders before payments are due. The app provides a clean UI, organized tracking, and alert mechanisms to reduce missed renewals.
 
-## Get started
+Developed using modern React Native practices with reusable components, navigation handling, API integration, and mobile state management.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🚀 Features
 
-2. Start the app
+✅ Add and manage subscriptions  
+✅ Track expiry & renewal dates  
+✅ Reminder alerts before due dates  
+✅ View subscription history/details  
+✅ Responsive mobile UI  
+✅ Authentication flow *(if implemented)*  
+✅ API integration for dynamic data  
+✅ Persistent local storage  
+✅ Real-time status updates  
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+# 📷 Screenshots
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Add screenshots here:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+| Home | Alerts | Subscription Details |
+|------|---------|----------------------|
+| Image | Image | Image |
 
-## Get a fresh project
+---
 
-When you're ready, run:
+# 🛠 Tech Stack
+
+### Mobile Framework
+- React Native
+- JavaScript (ES6+)
+
+### Navigation
+- React Navigation
+- Stack Navigation
+- Bottom Tab Navigation *(if used)*
+
+### State Management
+- React Hooks (`useState`, `useEffect`)
+- Context API / Redux *(verify)*
+
+### API Integration
+- Axios / Fetch API *(verify what you used)*
+
+### Local Storage
+- AsyncStorage *(verify)*
+
+### Notifications
+- Push Notifications / Local Notifications *(verify package used)*
+
+Possible packages:
 
 ```bash
-npm run reset-project
+@react-native-async-storage/async-storage
+react-native-push-notification
+@react-navigation/native
+@react-navigation/native-stack
+react-native-vector-icons
+axios
+react-native-safe-area-context
+react-native-screens
+react-native-gesture-handler
+react-native-reanimated
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Remove anything you didn't use.
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+# ⚙️ Installation
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Clone repository:
 
-## Join the community
+```bash
+git clone https://github.com/yourusername/subscribly-alert-app.git
+```
 
-Join our community of developers creating universal apps.
+Move into project:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# subscription-alert
-# subscription-alert
+```bash
+cd subscribly-alert-app
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start Metro:
+
+```bash
+npx react-native start
+```
+
+Run Android:
+
+```bash
+npx react-native run-android
+```
+
+Run iOS:
+
+```bash
+npx react-native run-ios
+```
+
+---
+
+# 📂 Project Structure
+
+```bash
+src/
+│
+├── components/        # Reusable UI Components
+├── screens/           # App Screens
+├── navigation/        # Navigation setup
+├── services/          # API calls
+├── context/           # State management
+├── assets/            # Images/icons
+├── utils/             # Helper functions
+└── notifications/     # Alert handling
+```
+
+---
+
+# 🔥 Libraries Used
+
+Example (update with actual):
+
+| Library | Purpose |
+|---------|----------|
+| react-navigation | Screen navigation |
+| axios | API requests |
+| async-storage | Local data persistence |
+| react-native-vector-icons | Icons |
+| react-native-push-notification | Alerts/reminders |
+| react-native-reanimated | Smooth animations |
+| react-native-gesture-handler | Gesture support |
+| redux/context api | State management |
+
+---
+
+# 🎯 What I Learned
+
+Through this project I improved:
+
+- Mobile UI development
+- React Native architecture
+- API integration
+- Navigation handling
+- State management
+- Notification systems
+- Performance optimization
+- Responsive mobile design
+- Debugging Android builds
+
+---
+
+# 📈 Future Improvements
+
+- Cloud sync
+- Dark mode
+- Push notifications
+- Analytics dashboard
+- User authentication
+- Premium subscription insights
+- Calendar integration
+
+---
+
+# 💼 Resume Impact Statement
+
+Developed a React Native subscription tracking application enabling users to monitor renewals and receive alerts before due dates, improving subscription management efficiency and mobile user experience.
+
+---
+
+# 👨‍💻 Author
+
+**Gowhar Yousuf**  
+Frontend Developer | React.js | React Native | JavaScript
+
+📧 Email: gowharyousuf820@gmail.com  
+
+---
+
+# 📄 License
+
+MIT License
