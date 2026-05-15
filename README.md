@@ -13,7 +13,8 @@ Developed using modern React Native practices with reusable components, navigati
 ✅ Reminder alerts before due dates  
 ✅ View subscription history/details  
 ✅ Responsive mobile UI  
-✅ Authentication flow *(if implemented)*  
+✅ Authentication flow
+✅ Clerk Auth for Login SignUp
 ✅ API integration for dynamic data  
 ✅ Persistent local storage  
 ✅ Real-time status updates  
@@ -39,20 +40,20 @@ Add screenshots here:
 ### Navigation
 - React Navigation
 - Stack Navigation
-- Bottom Tab Navigation *(if used)*
+- Bottom Tab Navigation 
 
 ### State Management
 - React Hooks (`useState`, `useEffect`)
-- Context API / Redux *(verify)*
+- Context API / Redux 
 
 ### API Integration
-- Axios / Fetch API *(verify what you used)*
+- Axios / Fetch API 
 
 ### Local Storage
-- AsyncStorage *(verify)*
+- AsyncStorage
 
 ### Notifications
-- Push Notifications / Local Notifications *(verify package used)*
+- Push Notifications / Local Notifications
 
 Possible packages:
 
